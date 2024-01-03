@@ -1,0 +1,9 @@
+diff a/config.mk b/config.mk	(rejected hunks)
+@@ -11,5 +11,5 @@ DATADIR = $(PREFIX)/share
+ XWAYLAND =
+ XLIBS =
+ # Uncomment to build XWayland support
+-#XWAYLAND = -DXWAYLAND
+-#XLIBS = xcb xcb-icccm
++XWAYLAND = -DXWAYLAND
++XLIBS = xcb xcb-icccm
